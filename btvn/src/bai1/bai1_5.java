@@ -23,7 +23,7 @@ public class bai1_5 {
 			}
 			System.out.print("\n");
 		}
-		
+		System.out.print("---------------\n");
 		//Tam giác vuông phải dưới
 		//
 		for(int i=0;i<n;i++) {
@@ -35,7 +35,7 @@ public class bai1_5 {
 			}
 			System.out.print("\n");
 		}
-		
+		System.out.print("---------------\n");
 		
 		//tam giác cân
 		for(int i=0;i<n;i++) {
@@ -48,6 +48,17 @@ public class bai1_5 {
 			System.out.print("\n");
 		}
 		System.out.print("---------------\n");
+		// tam giác cân ngược
+		for(int i=0;i<n;i++) {
+			for(int j=0;j<i+1;j++) {
+				System.out.print(" ");
+			}
+			for(int k =1;k<n-i+1;k++) {
+				System.out.print("* ");
+			}
+			System.out.print("\n");
+		}
+		System.out.print("---------------\n");
 		
 		//tam giác vuông trên bên trái
 		for (int i =0;i<n;i++) {
@@ -56,7 +67,7 @@ public class bai1_5 {
 			}
 			System.out.print("\n");
 		}
-		
+		System.out.print("---------------\n");
 		//tam giác vuông trên bên phải
 		for (int i =0;i<n;i++) {
 			for(int j=0;j<i+1;j++) {
